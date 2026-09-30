@@ -1,0 +1,46 @@
+.generic {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.button {
+    padding: 1rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.card {
+    background-color: palegreen;
+    margin: 0.5rem 2.5%;;
+    width: 20%;
+    border-radius: 0.5rem;
+}
+
+.card:hover {
+    background-color: greenyellow;
+}
+
+.card p {
+    padding-left: 1.5rem;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 8px solid #e0e0e0;
+  border-top-color: #04aa6d;
+  border-radius: 50%;
+  animation: spin 1.0s linear infinite;
+  margin: 0 auto;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
